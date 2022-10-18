@@ -1,0 +1,175 @@
+cfs entry for: _0.fld
+doc 0
+  field 0
+    name title
+    type string
+    value The title of my first document
+  field 1
+    name content
+    type string
+    value The content of the first document
+doc 1
+  field 0
+    name title
+    type string
+    value The title of my second document
+  field 1
+    name content
+    type string
+    value The content of the second document
+END
+checksum 00000000003384965024
+cfs entry for: _0.inf
+number of fields 2
+  name title
+  number 0
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+  name content
+  number 1
+  index options DOCS_AND_FREQS_AND_POSITIONS
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  vector number of dimensions 0
+  vector encoding FLOAT32
+  vector similarity EUCLIDEAN
+  soft-deletes false
+checksum 00000000002738111167
+cfs entry for: _0.len
+field title
+  type NUMERIC
+  minvalue 6
+  pattern 0
+0
+T
+0
+T
+field content
+  type NUMERIC
+  minvalue 6
+  pattern 0
+0
+T
+0
+T
+END
+checksum 00000000003922424621
+cfs entry for: _0.pst
+field content
+  term content
+    doc 0
+      freq 1
+      pos 1
+    doc 1
+      freq 1
+      pos 1
+  term document
+    doc 0
+      freq 1
+      pos 5
+    doc 1
+      freq 1
+      pos 5
+  term first
+    doc 0
+      freq 1
+      pos 4
+  term of
+    doc 0
+      freq 1
+      pos 2
+    doc 1
+      freq 1
+      pos 2
+  term second
+    doc 1
+      freq 1
+      pos 4
+  term the
+    doc 0
+      freq 2
+      pos 0
+      pos 3
+    doc 1
+      freq 2
+      pos 0
+      pos 3
+field title
+  term document
+    doc 0
+      freq 1
+      pos 5
+    doc 1
+      freq 1
+      pos 5
+  term first
+    doc 0
+      freq 1
+      pos 4
+  term my
+    doc 0
+      freq 1
+      pos 3
+    doc 1
+      freq 1
+      pos 3
+  term of
+    doc 0
+      freq 1
+      pos 2
+    doc 1
+      freq 1
+      pos 2
+  term second
+    doc 1
+      freq 1
+      pos 4
+  term the
+    doc 0
+      freq 1
+      pos 0
+    doc 1
+      freq 1
+      pos 0
+  term title
+    doc 0
+      freq 1
+      pos 1
+    doc 1
+      freq 1
+      pos 1
+END
+checksum 00000000001990244897
+table of contents, size: 4
+  filename: _0.fld
+    start: 22
+    end: 408
+  filename: _0.inf
+    start: 430
+    end: 1207
+  filename: _0.len
+    start: 1229
+    end: 1385
+  filename: _0.pst
+    start: 1407
+    end: 2427
+table of contents begins at offset: 0000000000000002427
